@@ -74,7 +74,7 @@ The generated answers are evaluated using:
 # 📂 Project Structure
 
 Real-Estate-LangChain-RAG/
-
+│
 ├── .gitignore
 ├── requirements.txt
 ├── README.md
@@ -85,6 +85,10 @@ Real-Estate-LangChain-RAG/
 │       ├── 02_EmeraldEnclave_Handbook.pdf
 │       ├── 03_Listing_Portfolio.pdf
 │       └── 04_Maintenance_Compliance_Log.pdf
+│
+├── faiss_index/
+│   ├── index.faiss
+│   └── index.pkl
 │
 └── src/
     ├── config.py
