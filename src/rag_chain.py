@@ -32,7 +32,7 @@ def create_rag_chain():
     # Create LLM
     llm = ChatGoogleGenerativeAI(
         model="gemini-3.6-flash",
-        google_api_key=os.getenv("GOOGEL_API_KEY")
+        google_api_key=os.getenv("GOOGLE_API_KEY")
     )
 
     return retriever, llm
